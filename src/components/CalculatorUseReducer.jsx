@@ -18,7 +18,7 @@ const CalculatorUseReducer = () => {
     dispatch({ type: "SET_RESULT", payload: state.number1 + state.number2 });
   };
 
-  console.log(state.number1 + state.number2);
+
 
   return (
     <div className="calculator-container">
